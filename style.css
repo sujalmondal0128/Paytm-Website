@@ -1,0 +1,130 @@
+/* user icon sign in btn header */
+
+.user-icon-blue {
+    display: none;
+  }
+  .sign-in-btn:hover .user-icon-blue {
+    display: block;
+  }
+  
+  .sign-in-btn:hover .user-icon-md {
+    display: none;
+  }
+  
+  /* notification section */
+  
+  .gradient-one {
+    background: linear-gradient(
+      0deg,
+      hsla(0, 0%, 80%, 1) 0%,
+      hsla(0, 0%, 96%, 1) 100%
+    );
+  }
+  
+  /* Hero section btn toggle */
+  
+  /* apple logo */
+  .apple-logo-svg-b {
+    display: none;
+  }
+  
+  .download-paytm-app-btn:hover .apple-logo-svg-b {
+    display: block;
+  }
+  .download-paytm-app-btn:hover .apple-logo-svg-w {
+    display: none;
+  }
+  
+  /* android logo */
+  .android-logo-svg-b {
+    display: none;
+  }
+  
+  .download-paytm-app-btn:hover .android-logo-svg-b {
+    display: block;
+  }
+  .download-paytm-app-btn:hover .android-logo-svg-w {
+    display: none;
+  }
+  
+  /* Financial Services section  */
+  
+  .bg-image-service-02 {
+    background-image: url(mountain-background.png);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  /* arrow animation */
+  
+  .arrow {
+    width: 10px;
+    height: 10px;
+    transform: rotate(45deg);
+  
+    position: absolute;
+    right: 10%;
+  }
+  
+  .arrow::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-width: 2px 2px 0 0;
+    border-style: solid;
+    border-color: #fafafa;
+    transition: height 0.2s ease;
+    display: block;
+    transform-origin: 100% 0;
+  }
+  .arrow::after {
+    position: absolute;
+    top: 80%;
+    right: 10%;
+    content: "";
+    width: 0;
+    height: 2px;
+  
+    background-color: #f1f1f1;
+    transition: width 0.2s ease;
+    transform: rotate(135deg);
+  }
+  
+  .learn-more-btn:hover .arrow::after {
+    /* background-color: #3fcafd; */
+    width: 15px;
+  }
+  
+  /* bottom Lines */
+  
+  .bottom-lines::before {
+    content: " ";
+    height: 12px;
+    background-color: #00baf2;
+    display: block;
+  }
+  .bottom-lines::after {
+    content: " ";
+    height: 12px;
+    background-color: #002970;
+    display: block;
+  }
+  
+  /* scrollbar styling  */
+  
+  /* width */
+  ::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #00baf2;
+    border-radius: 10px;
+  }
+  
